@@ -1,0 +1,245 @@
+
+* {
+  margin: 0%;
+  padding: 0%;
+
+} :root {
+  --cor-principal: #f6e2c1;
+  --cor-segundaria:#c18668;
+  --cor-tercianaria:#99a06d;
+  -cor-quartenaria:#9a6144;
+  --cor-quitenaria:#fac061;
+  --cor-sextenaria: #525a39;
+
+}.cabecalho {
+  padding: 2% 0% 0% 9.5%;
+
+}.cabecalho_link {
+  font-family: "Coiny", system-ui;
+  font-style: normal;
+ font-size: 1.12rem;
+ text-decoration: none;
+ color: var(--cor-principal);
+ padding: 5% 1% 0% 1.5%;
+  
+}.cabecalho_link:hover{
+  color: var(--cor-principal);
+  text-decoration:underline;
+
+} body {
+  box-sizing: border-box;
+  background-color: var(--cor-segundaria);
+
+} h1 {
+  color: #FAF9F5;
+
+}.principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 5% 15%;
+  gap: 5%;
+  
+
+  }.principal_texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+
+  }.principal_titulo {
+  font-family: "Coiny", system-ui;
+  font-style: normal;
+ font-size: 1.87rem;
+
+
+  }.negrito {
+  color: #ccd39a;
+  
+
+  }.principal_paragrafo {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  gap: 0.62rem;
+  padding-bottom: 1.87rem;
+  
+
+
+
+ }.apresentacao_links{
+  display: flex;
+   flex-direction: column;
+   align-items:center;
+  justify-content:space-between ;
+   gap: 1.5rem;
+  font-size: 5%;
+
+}.hyperlinks {
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  height: 3rem;
+  gap: 1.5rem;
+  align-items:center;
+  color:var(--cor-principal);
+   font-family: "Coiny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  justify-content:center;
+  font-size: 1.5rem;
+  text-align: center;
+ 
+} .apresentacao_links_link{
+  width: 25%;
+  background-color:var(--cor-tercianaria);
+  color: #ccd39a;
+  border:var(--cor-tercianaria);
+  border-radius: 1rem;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 1.12rem;
+  align-content: first baseline
+
+}.The_rock {
+  width: 50%;
+  height: 1%;
+  
+}.logo{
+width: 9%;
+height: 9%;
+align-items: center;
+
+}.apresentacao_links_link:hover{
+  background-color: var(--cor-principal);
+  color:--cor-quartenaria;
+  border-radius: 1.25rem;
+ 
+} .principal_2 {
+  display: flex;
+  align-items:center;
+  padding: 3% 10% 5% 10%;
+  justify-content: space-between;
+  flex-direction: row;
+  
+}.conteudo{
+  background-color: #9a6144;
+  padding: 5%;
+  border-radius: 10%;
+  flex-direction: row;
+  
+}.principal_2_texto{
+  flex-direction: row;
+
+}.computador {
+  width: 31.25rem;
+  height: 31.25rem;
+  justify-content: center;
+
+ }.principal_titulo_2 {
+  font-family: "Coiny", system-ui;
+  font-style: normal;
+  font-size: 2.25rem;
+  padding: 0% 0% 1% 0%;
+
+}.principal_paragrafo_2 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+   padding-bottom: 1rem;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+
+
+}.apresentacao {
+  justify-content: center;
+  padding: 5% 15%;
+  gap: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 6% 4% 6% 4%;
+  flex-wrap: wrap;
+
+
+} .apresentacao__conteudo__titulo {
+  font-family: "Coiny", system-ui;
+  font-style: normal;
+  font-size: 2.25rem;
+  color:var(--cor-quitenaria);
+  padding-left: 12%;
+  align-items: center;
+
+} .apresentacao__conteudo__texto{
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  gap: 0.62rem;
+  align-content: center;
+  justify-content: center;
+  width:100%;
+  color:var(--cor-principal);
+  padding-left: 12%;
+
+}.apresentacao__conteudo__texto_certificados{
+   font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  gap: 0.62rem;
+  align-content: center;
+  justify-content: center;
+  width:50%;
+  color: var(--cor-principal);
+  padding-left: 12%;
+ 
+}p {
+  color: #FAEBD7
+
+} header {
+    color:bisque
+
+  } img {
+    height: 31.25rem;
+
+  } a {
+    color: #faddb8;
+
+}.rodape{
+    background-color: #ccd39a;
+    direction: flex;
+    font-family: "Fascinate Inline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12.5rem;
+   padding: 0.5%;
+
+  }.rodape_texto{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.25rem;
+  padding: 1rem;
+  text-align: center;
+  color: #8F9562;
+  font-size: 400;
+
+  } @media (max-width: 1200px){
+     .cabecalho{
+      padding: 5% 1% 1% 5%;
+
+     } .cabecalho_link {
+    justify-content:center;
+      
+     }.apresentacao, .principal, .principal_2{
+     display: flex;
+     flex-direction: column-reverse;
+     padding: 5%;
+     
+     } .principal_texto, .apresentacao__conteudo__texto, .apresentacao__conteudo__titulo{
+      width:100%;
+
+     } .principal_2_texto {
+      width: 100%;
+
+     }
+    
+    }
